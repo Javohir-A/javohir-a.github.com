@@ -1,0 +1,27 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.box {
+  text-align: center;
+}
+
+.box_item {
+  background: #dadada;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 3px;
+  border: dashed #000 1px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.box_item_1 {
+  width: 50%;
+}
+
+.box_item:hover {
+  border: dashed 1px red;
+}
+/*# sourceMappingURL=Untitled-1.css.map */
